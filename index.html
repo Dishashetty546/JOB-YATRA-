@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Job Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">Job<span>Yatra</span></a></h2>
+        <div class="navbar_menu">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#Testimony">Testimony</a>
+            <a href="#blog">Blog</a>
+            <a href="#Sign_in">Sign In</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="header_title">HUNT FOR YOUR<br><span>DREAM JOB <br></span> SEAMLESSLY</h1>
+
+  <div class="search-wrapper">
+    <div class="search-box">
+        <div class="search-card">
+            <input type="text" class="search-input" placeholder="job-title or keywirds">
+            <button class="search-button">Search</button>
+        </div>
+    </div>
+  </div>
+  <div class="filter-box">
+    <div class="filter-dropdown">
+        <select name="Job-levels" id="job-level" class="filter-select">
+            <option>Job level</option>
+            <option>Entry</option>
+            <option>Mid-level</option>
+            <option>Senior-level</option>
+            <option>Executive</option>
+        </select>
+       <select name="Job-category" id="Job-category" class="filter-select">
+        <option>Job-category</option>
+        <option >Engineering</option>
+        <option>Sales Management</option>
+        <option>Designing</option>
+        <option>teaching</option>
+       </select>
+       <select name="Employment-type" id="Employment-type" class="filter-select">
+        <option>Employment type</option>
+        <option>Internship</option>
+        <option>Part time</option>
+        <option>Full time</option>
+        <option>Freelance</option>
+
+       </select>
+        <select name="location" id="location" class="filter-select">
+            <option>Locations</option>
+            <option>Remote/On-Site</option>
+            <option>International</option>
+            <option>State/Region</option>
+            <option>City</option>
+        </select>
+        <select name="Education" id="Education" class="filter-select">
+           <option >Qualification</option>
+            <option>High school</option>
+            <option>Associate's Degree</option>
+            <option>Bachelor's Degree</option>
+            <option>Master's Degree</option>
+            <option>PhD</option>
+        </select>
+        <select name="salary" id="salary" class="filter-select">
+            <option>Salary Range</option>
+            <option>Below 20,000</option>
+            <option>20,000-50,000</option>
+            <option>50,000-1,00,000</option>
+            <option>1,00,000 and above</option>
+        </select>
+
+
+    </div>
+    <div class="filter-chosen">
+        <div class="chosen-card">
+            Entry level<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+            Designing <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+            Internship<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+           Remote/On-Site <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+         Bachelor's Degree   <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+            20,000-50,000 <i class="fas fa-times-circle"></i>
+        </div>
+    </div>
+  </div>
+  <section class="job-list" id="jobs">
+    <div class="job-card">
+        <div class="job-name">
+           <img class="job-profile" src="google.jfif"width="10">
+           <div class="job-details">
+            <h4>google</h4>
+            <h3>Web Designer</h3>
+            <p>Creating the overal  look and feel of a website,including choosing..</p>
+           </div>
+
+        </div>
+<div class="job-label">
+    <a href="#" class="label-a">HTML</a>
+    <a href="#" class="label-b">CSS</a>
+    <a href="#" class="label-c">Javascript</a>
+    <a href="#" class="label-d">React.js</a>
+
+</div>
+<div class="job-posted">posted 2 mins ago</div>
+    </div>
+
+    <div class="job-card">
+        <div class="job-name">
+           <img class="job-profile" src="amazon.jfif" width="10" alt="">
+           <div class="job-details">
+            <h4>Amazon</h4>
+            <h3>Jr.Web Designer</h3>
+            <p>Designing images,icons and other visual elements that will be used on...</p>
+           </div>
+
+        </div>
+<div class="job-label">
+    <a href="#" class="label-a">HTML</a>
+    <a href="#" class="label-b">CSS</a>
+    <a href="#" class="label-c">Javascript</a>
+  
+
+</div>
+<div class="job-posted">posted 7 mins ago</div>
+    </div>
+
+    <div class="job-card">
+        <div class="job-name">
+           <img class="job-profile" src="cognizant.jfif"width="10" alt="">
+           <div class="job-details">
+            <h4>Cognizant</h4>
+            <h3>Graphic Web Designer</h3>
+            <p>Creating mock-up's or wireframes to plan the layout and funtionality..</p>
+           </div>
+
+        </div>
+<div class="job-label">
+    <a href="#" class="label-a">HTML</a>
+    <a href="#" class="label-b">CSS</a>
+    <a href="#" class="label-c">Javascript</a>
+    
+
+</div>
+<div class="job-posted">posted  1 day ago</div>
+    </div>
+    <div class="job-card">
+        <div class="job-name">
+           <img class="job-profile" src="flipcart.jfif" padding="4px" alt="">
+           <div class="job-details">
+            <h4>Flipcart</h4>
+            <h3>UI-UX Designerr</h3>
+            <p>Focusing on how users wll interact with the website to ensure a seamless and...</p>
+           </div>
+
+        </div>
+<div class="job-label">
+    <a href="#" class="label-a">HTML</a>
+    <a href="#" class="label-b">CSS</a>
+    <a href="#" class="label-c">Javascript</a>
+    
+
+</div>
+<div class="job-posted">posted 2 day ago</div>
+    </div>
+<button class="job-more">More list</button>
+  </section>
+  <section class="join">
+    <div class="join-detail">
+        <h1 class="section-title">LETS START YOUR NEW JOB WITH US
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe?</p>
+            <button class="join-button">Join Now</button>
+    </div>
+  </section>
+  <section class="featured" id="companies">
+   <h1 class="section-title">Featured Companies</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos.</p>
+   <div class="featured-wrapper">
+    <div class="featured-card">
+       <img src="micro.jfif" alt="" class="featured-images">
+       <p>Microsoft</p>
+       <button class="featured-button">Veiw 2 jobs</button>
+    </div>
+    <div class="featured-card">
+        <img src="th (2).jfif" alt="" class="featured-images">
+        <p>Ebay</p>
+        <button class="featured-button">Veiw 1 jobs</button>
+     </div>
+     <div class="featured-card">
+        <img src="ip.jfif" alt="" class="featured-images">
+        <p>IBM</p>
+        <button class="featured-button">Veiw 3 jobs</button>
+     </div>
+     <div class="featured-card">
+        <img src="IPS.jfif" alt="" class="featured-images">
+        <p>HMC</p>
+        <button class="featured-button">Veiw 2 jobs</button>
+     </div>
+     <div class="featured-card">
+        <img src="NO.jfif" class="featured-images">
+        <p>Nokia<p>
+        <button class="featured-button">Veiw 1 jobs</button>
+     </div>
+     <div class="featured-card">
+        <img src="amazon.jfif" class="featured-images">
+        <p>Amazon<p>
+        <button class="featured-button">Veiw 5 jobs</button>
+     </div>
+     <div class="featured-card">
+        <img src="flipcart.jfif"featured-images">
+        <p>Flipcart<p>
+        <button class="featured-button">Veiw 2 jobs</button>
+     </div>
+     <div class="featured-card">
+        <img src="google.jfif" class="featured-images">
+        <p>google<p>
+        <button class="featured-button">Veiw 1 jobs</button>
+     </div>
+   </div>
+  </section>
+
+
+  <section class="testimony" id="Testimony">
+    <h1 class="section-title">Testimonial</h1>
+    <p>Let's see what our clients think about US</p>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="quote.jfif" width="2" alt="">
+           
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum.</h3><div class="testimony-pic"><img src="deve.jfif" alt=""><p>Philies</p> <span>Business Development</span></div>
+        </div>
+         
+        <div class="swiper-slide">
+            <img src="quote.jfif" width="2" alt="">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum.</h3><div class="testimony-pic"><img src="deve2.jfif" alt=""><p>Daren Smith</p> <span>Business Managment</span></div>
+        </div>
+        <div class="swiper-slide">
+            <img src="quote.jfif" width="2" alt="">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum.</h3><div class="testimony-pic"><img src="deve3.jfif" alt=""><p>John Hoek</p> <span>We Designer</span></div>
+        </div>
+        <div class="swiper-slide">
+            <img src="quote.jfif" width="2" alt="">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum.</h3><div class="testimony-pic"><img src="deve4.jfif" alt=""><p>Josephson</p> <span>Business Development</span></div>
+        </div>
+        <div class="swiper-slide">
+            <img src="quote.jfif" width="2" alt="">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum.</h3><div class="testimony-pic"><img src="deve5.jfif" alt=""><p>Hardin karip</p> <span>Sales Analyst</span></div>
+        </div>
+        <div class="swiper-slide">
+            <img src="quote.jfif" width="2" alt="">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum.</h3><div class="testimony-pic"><img src="deve6.jfif" alt=""><p>Jurisa</p> <span>Senior Developer</span></div>
+        </div>
+        <div class="swiper-slide">
+            <img src="quote.jfif" width="2" alt="">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum.</h3><div class="testimony-pic"><img src="deve8.jfif" alt=""><p>Hulkman</p> <span>Business Development</span></div>
+        </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>    
+  </section>
+ <section class="blog" id="blog">
+    <h1 class="section-title">Career Advices</h1>
+    <div class="blog-wrapper">
+        <div class="blog-card">
+            <img  class="blog-image" src="job_hunt_trends.png" alt="">
+            <div class="blog-details">
+                <span>12 nov 2023</span>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <hr class="divider"><a href="#" class="blog-more">Read More</a>
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+            <img  class="blog-image" src="job_hunt_trends.png" alt="">
+            <div class="blog-details">
+                <span>12 nov 2023</span>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <hr class="divider"><a href="#" class="blog-more">Read More</a>
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+            <img  class="blog-image" src="job_hunt_trends.png" alt="">
+            <div class="blog-details">
+                <span>12 nov 2023</span>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <hr class="divider"><a href="#" class="blog-more">Read More</a>
+            </div>
+
+        </div>
+    </div>
+    <p>Learn and Explore career tips with our experienced Rescruiters</p>
+ </section>
+ <footer>
+    <div class="footer-wrapper" id="Sign_in">
+        <h3>JobYatra</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis!</p>
+        <div class="social-media">
+            <a href="#"><img src="" alt=""></a>
+            <a href="#"><img src="" alt=""></a>
+            <a href="#"><img src="" alt=""></a>
+
+        </div>
+    </div>
+<div class="footer-wrapper">
+    <h4>Explore</h4>
+    <a href="#">Top Companies</a>
+    <a href="#">Terms of services</a>
+    <a href="#">Podcast</a>
+    <a href="#">Career Options</a>
+</div>
+<div class="footer-wrapper">
+    <h4>About</h4>
+    <a href="#">FAQ</a>
+    <a href="#">Get Inspired</a>
+    <a href="#">@log</a>
+   
+</div>
+<div class="footer-wrapper">
+    <h4>Support</h4>
+    <a href="#">Support</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Podcast</a>
+    <a href="#">Trust & Saftety</a>
+    <a href="#">Partnership</a>
+
+</div>
+<div class="footer-wrapper">
+    <h4>Community</h4>
+    <a href="#">Community</a>
+    <a href="#">Invite Friends</a>
+    <a href="#">Event</a>
+   
+</div>
+
+
+
+ </footer>
+</body>
+</html>
