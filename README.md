@@ -3,6 +3,14 @@
 ## Overview
 Welcome to the JobBoard application! This is a front-end responsive web application designed using HTML, CSS, and JavaScript. It provides a platform for users to browse and apply for job listings, as well as for employers to post job vacancies. This README will guide you through the features, structure, and setup of the application.
 
+![image](https://github.com/Dishashetty546/JOB-YATRA-/assets/139549917/d7f5e772-f447-44ef-9ae4-c25ba294af39)
+![image](https://github.com/Dishashetty546/JOB-YATRA-/assets/139549917/bb13e213-9823-4255-b54d-00f42623e633)
+![image](https://github.com/Dishashetty546/JOB-YATRA-/assets/139549917/43c4fa6e-6665-4c23-a8d3-d36d744bac43)
+![image](https://github.com/Dishashetty546/JOB-YATRA-/assets/139549917/5c1c4da3-8dfd-47ae-b339-b68098e94bc6)
+
+
+
+
 ## Features
 - **Responsive Design**: The application is fully responsive, ensuring a seamless experience across different devices and screen sizes.
 - **Job Listings**: Browse through a comprehensive list of job openings posted by various employers.
